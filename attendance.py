@@ -13,7 +13,7 @@ while True:
         break
 
     elif entry not in s.keys():
-        print('ID not found; scan again.')
+        print('ID not found; Please scan again.')
 
     else:
         print(s[entry]['name'] + ' scanned in at ' + t.strftime('%H:%M\n', t.localtime()))
